@@ -54,10 +54,10 @@
     /* break-extra-large: 1400px; */
 }
 
-@media (min-width: 992) {
+@media (min-width: 992px) {
     :root {
         /* Sizings */
-        --header-height: 75px;
+        --header-height: 102px;
     }
 }
 
