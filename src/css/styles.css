@@ -135,7 +135,7 @@ textarea {
     right: 0;
     z-index: var(--zindex-header);
     height: var(--header-height);
-    background-color: var(--color-white);
+    background-color: var(--color-light-blue);
     box-shadow: var(--elevation-1);
 }
 
