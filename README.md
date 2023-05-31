@@ -6,9 +6,9 @@ Proyecto **Frontend** en **HTML**, **CSS** para la página web ficticia de CoolA
 - **Buenas prácticas**: BEM, Responsive Design, Mobile First, Pixel Perfect, HTML semántico.
 
 ## Diseño
-Implementación basada en un diseño de **Figma**. Los estilos de los componentes se han obtenido a través de la herramienta de inspección de Figma y mediante el pluggin Locofy.ai, el cual permite exportar los Design Tokens.
+Implementación basada en un diseño **Responsive** de **Figma**. Los estilos de los componentes se han obtenido a través de la herramienta de inspección de Figma y mediante el pluggin Locofy.ai, el cual permite exportar los Design Tokens.
 
-![image](https://github.com/CristinaMitrica/CoolArticulos-HTML-CSS/assets/124876049/fd74e3b7-c14e-46e1-bfa4-a89190e72429)
+![coolArticulos_body](https://github.com/CristinaMitrica/CoolArticulos-HTML-CSS/assets/124876049/96a0a907-8168-4420-acc8-3489a9c4ea9a)
 
 ## HTML
 **HTML** **semántico** usando las **buenas prácticas** de la **W3School** y la herramienta W3School Web Validator. Las clases se escriben bajo la la nomenclatura **BEM**, para facilizar la componetización y conseguir una baja especificidad.
@@ -18,9 +18,10 @@ El código emplea las buenas prácticas de CSS:
 - **Normalize**
 - **Display Flex y Grid**
 - **Variables de CSS**
-- **Breakpoints Mobile First (min-width)**
+- **Breakpoints Responsive Mobile First (min-width)**
 - **Rems**
 - **BEM (clases basadas en componentes)**
+- **Baja Especificidad**
 
 ## Cursos
 - OpenBootcamp. Curso de HTML y CSS.
