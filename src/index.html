@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,152 +12,186 @@
     </head>
     <body>
         <header class="header">
-            <a href="index.html">
-                <p class="header__logo">COOL<span class="header__logo--articles">Artículos</span></p>
+            <a href="index.html" class="header__logo font--h1">
+                COOL<span class="header__logo--articles">Artículos</span>
             </a>
             <nav class="header__nav">
-                <a class="header__link--active" href="#">Artículos</a>
-                <a href="#">Animales</a>
-                <a href="#">Deportes</a>
-                <a href="#">Gastronomía</a>
+                <ul class="header__ul">
+                    <li class="header__li">
+                        <a class="header__a header__a--active" href="#">Artículos</a>
+                    </li>
+                    <li class="header__li">
+                        <a class="header__a" href="#">Animales</a>
+                    </li>
+                    <li class="header__li">
+                        <a class="header__a" href="#">Deportes</a>
+                    </li>
+                    <li class="header__li">
+                        <a class="header__a" href="#">Gastronomía</a>
+                    </li>
+                </ul>
             </nav>
         </header>
 
         <main class="main">
-            <article class="article">
-                <ol class="article__breadcrumb breadcrumb">
-                    <li class="breadcrumb__li">
-                        <a href="index.html">Inicio</a>
-                    </li>
-                    <span>></span>
-                    <li class="breadcrumb__li">
-                        <a href="#">Noticias</a>
-                    </li>
-                    <span>></span>
-                    <li class="breadcrumb__li breadcrumb__li--active" aria-current="page">
-                        Tres lugares únicos...
-                    </li>
-                </ol>
-                <figure class="article__figure">
-                    <img class="article__img" src="https://sitgesluxuryrentals.com/wp-content/uploads/2018/06/Barcelona-City-Sunset.jpg">
-                    <figcaption class="main__figcaption">Parc Güell | 23 de febrero de 2023</figcaption>
-                </figure>
-                <section class="article__content">
-                    <h1 class="article__h1">Tres lugares únicos que probablemente desconocías</h1>
-                    <div class="article__content-text">
+            <div class="article-page">
+                <nav class="article-page__breadcrumb breadcrumb">
+                    <ol class="breadcrumb__ol">
+                        <li class="breadcrumb__li">
+                            <a href="index.html">Inicio</a>
+                            <span>></span>
+                        </li>
+                        <li class="breadcrumb__li">
+                            <a href="#">Noticias</a>
+                            <span>></span>
+                        </li>
+                        <li class="breadcrumb__li breadcrumb__li--active" aria-current="page">
+                            Tres lugares únicos...
+                        </li>
+                    </ol>
+                </nav>
+                <article class="article-page__article article">
+                    <figure class="article__figure">
+                        <img class="article__img" src="https://sitgesluxuryrentals.com/wp-content/uploads/2018/06/Barcelona-City-Sunset.jpg">
+                        <figcaption class="main__figcaption font--body--small">Parc Güell | 23 de febrero de 2023</figcaption>
+                    </figure>
+                    <section class="article__content">
+                        <h1 class="article__h1 font--h1">Tres lugares únicos que probablemente desconocías</h1>
                         <p class="article__p">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
-                        <h2 class="article__h2">H2 sección del artículo</h2>
-                        <p class="article__p">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                        <section class="article__text-section">
-                            <h3 class="article__h3">1. H3 sección del artículo</h3>
+                        <section class="article__chapter-h2">
+                            <h2 class="article__h2 font--h2">H2 sección del artículo</h2>
                             <p class="article__p">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </p>
+                            <section class="article__chapter-h3">
+                                <h3 class="article__h3 font--h3">1. H3 sección del artículo</h3>
+                                <p class="article__p">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                                <p class="article__p">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </section>
+                            <section class="article__chapter-h3">
+                                <h3 class="article__h3 font--h3">2. H3 sección del artículo</h3>
+                                <p class="article__p">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                                <p class="article__p">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </section>
+                        </section>
+                        <section class="article__chapter-h2 article__chapter-h2--facts">
+                            <h2 class="article__h2 font--h2">¿Sabes por qué son únicos?</h2>
                             <p class="article__p">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </p>
                         </section>
-                        <section class="article__text-section">
-                            <h3 class="article__h3">2. H3 sección del artículo</h3>
-                            <p class="article__p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                            <p class="article__p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </section>
-                    </div>
-                    <a class="article__link" href="#">
-                        Leer artículo completo
-                    </a>
-                </section>
-                <section class="article__curious-facts">
-                    <h2 class="curious-facts__h2">¿Sabes por qué son únicos?</h2>
-                    <p class="curious-facts__p">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </section>
-                <section class="article__comment-form">
-                    <form class="comment-form">
-                        <h2 class="comment-form__h2">Deja tu comentario</h2>
-                        <p class="comment-form__p-mandatory">*Todos los campos son obligatorios</p>
-                        <div class="comment-form__fieldset">
-                            <div class="comment-form__message">
-                                <label for="message">Mensaje</label>
-                                <textarea id="message" name="message"></textarea>
-                            </div>
-                            <div class="comment-form__name">
-                                <label for="name">Nombre</label>
-                                <input type="text" id="name" name="name" maxlength="64" pattern="[A-Za-z'-]+" required>
-                            </div>
-                            <div class="comment-form__email">
-                                <label for="email">Correo electrónico</label>
-                                <input type="email" id="email" name="email" placeholder="nombre@gmail.com" required>
-                            </div>
-                            <div class="comment-form__checkbox checkbox">
-                                <input type="checkbox" id="privacy" name="privacy" value="privacy" required>
-                                <label for="privacy">Accepto la política de privacidad</label>>
-                            </div>
-                            <button class="comment-form__btn" type="submit">ENVIAR COMENTARIO</button>
-                        </div>
-                    </form>
-                </section>
-            </article>
-            <aside class="aside">
-                <article class="recent-articles">
-                    <h2 class="recent-articles__h2">Artículos recientes</h2>
-                    <div class="recent-articles__articles">
-                        <article class="recent-articles__article recent-article">
-                            <a href="#" class="recent-article__content">
-                                <div class="recent-article__img-frame">
-                                    <img class="recent-article__img" src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/OF3SZKCXHZADLOGT3V5KFAXG4E.png" alt="">
+                        <a class="article__a" href="#">
+                            Leer artículo completo
+                        </a>
+                    </section>
+                    <section class="article__comment-form">
+                        <form class="comment-form">
+                            <h2 class="comment-form__h2 font--h2">Deja tu comentario</h2>
+                            <p class="comment-form__p-mandatory font--body--small">*Todos los campos son obligatorios</p>
+                            <div class="comment-form__fieldset">
+                                <div class="comment-form__field input-field">
+                                    <label class="input-field__label" for="message">Mensaje</label>
+                                    <textarea class="input-field__input" id="message" name="message"></textarea>
                                 </div>
-                                <div class="recent-article__text">
-                                    <h3 class="recent-article__h3">Soy el título de un artículo reciente</h3>
-                                    <p class="recent-article__date">02-05-2023</p>
+                                <div class="comment-form__field input-field">
+                                    <label class="input-field__label" for="name">Nombre</label>
+                                    <input class="input-field__input" type="text" id="name" name="name" maxlength="64" pattern="[A-Za-z'-]+" required>
                                 </div>
-                            </a>
-                        </article>
-                        <div class="recent-articles__divider divider"></div>
-                        <article class="recent-articles__article recent-article">
-                            <a href="#" class="recent-article__content">
-                                <div class="recent-article__img-frame">
-                                    <img class="recent-article__img" src="https://www.rebanando.com/uploads/media/bescuit4.jpg?1391543390" alt="">
+                                <div class="comment-form__field input-field">
+                                    <label class="input-field__label" for="email">Correo electrónico</label>
+                                    <input class="input-field__input" type="email" id="email" name="email" placeholder="nombre@gmail.com" required>
                                 </div>
-                                <div class="recent-article__text">
-                                    <h3 class="recent-article__h3">Soy el título de un artículo reciente</h3>
-                                    <p class="recent-article__date">02-05-2023</p>
+                                <div class="comment-form__field checkbox-field">
+                                    <input class="checkbox-field__input" type="checkbox" id="privacy" name="privacy" value="privacy" required>
+                                    <label class="checkbox-field__label" for="privacy">Accepto la política de privacidad</label>
                                 </div>
-                            </a>
-                        </article>
-                    </div>
-                    <a href="#" class="recent-articles__read-more-articles">Haz click aquí para consultar más artículos recientes</a>
+                                <button class="comment-form__button" type="submit">ENVIAR COMENTARIO</button>
+                            </div>
+                        </form>
+                    </section>
                 </article>
-            </aside>
+                <aside class="article-page__aside">
+                    <article class="recent-articles">
+                        <h2 class="recent-articles__h2 font--h2">Artículos recientes</h2>
+                        <ul class="recent-articles__ul">
+                            <li class="recent-articles__li">
+                                <article class="recent-article">
+                                    <a class="recent-article__content" href="#">
+                                        <div class="recent-article__img-frame">
+                                            <img class="recent-article__img" src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/OF3SZKCXHZADLOGT3V5KFAXG4E.png" alt="">
+                                        </div>
+                                        <div class="recent-article__text">
+                                            <h3 class="recent-article__h3 font--h4">Soy el título de un artículo reciente</h3>
+                                            <p class="recent-article__p">02-05-2023</p>
+                                        </div>
+                                    </a>
+                                </article>
+                            </li>
+                            <li class="recent-articles__li">
+                                <hr class="recent-articles__hr divider">
+                            </li>
+                            <li class="recent-articles__li">
+                                <article class="recent-article">
+                                    <a class="recent-article__content" href="#">
+                                        <div class="recent-article__img-frame">
+                                            <img class="recent-article__img" src="https://www.rebanando.com/uploads/media/bescuit4.jpg?1391543390" alt="">
+                                        </div>
+                                        <div class="recent-article__text">
+                                            <h3 class="recent-article__h3 font--h4">Soy el título de un artículo reciente</h3>
+                                            <p class="recent-article__p">02-05-2023</p>
+                                        </div>
+                                    </a>
+                                </article>
+                            </li>
+                        </ul>
+                        <a class="recent-articles__read-more-articles font--body--small" href="#">Haz click aquí para consultar más artículos recientes</a>
+                    </article>
+                </aside>
+            </div>
         </main>
 
-        <footer class="footer">
-            <div class="footer__nav">
-                <a href="#">Sobre nosotros</a>
-                <a href="#">Aviso legal</a>
-                <a href="#">Política de privacidad</a>
-                <a href="#">Política de cookies</a>
-            </div>
-            <div class="footer__social-media">
-                <a href="#">
-                    <img class="icon" src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/twitter-icon-18-256.png" alt="Navega a Twitter">
-                </a>
-                <a href="#">
-                    <img class="icon" src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png" alt="Navega a Instagram">
-                </a>
-                <a href="#">
-                    <img class="icon" src="https://i.pinimg.com/originals/e8/c9/82/e8c9828387de2a83e5469a95bc6d8574.png" alt="Navega a Youtube">
-                </a>
-            </div>
+        <footer class="footer font--body--small">
+            <ul class="footer__nav-internal">
+                <li class="footer__li">
+                    <a class="footer__a" href="#">Sobre nosotros</a>
+                </li>
+                <li class="footer__li">
+                    <a class="footer__a" href="#">Aviso legal</a>
+                </li>
+                <li class="footer__li">
+                    <a class="footer__a" href="#">Política de privacidad</a>
+                </li>
+                <li class="footer__li">
+                    <a class="footer__a" href="#">Política de cookies</a>
+                </li>
+            </ul>
+            <ul class="footer__nav-social">
+                <li class="footer__li">
+                    <a class="footer__a" href="#">
+                        <img class="footer__icon icon" src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/twitter-icon-18-256.png" alt="Navega a Twitter">
+                    </a>
+                </li>
+                <li class="footer__li">
+                    <a class="footer__a" href="#">
+                        <img class="footer__icon icon" src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png" alt="Navega a Instagram">
+                    </a>
+                </li>
+                <li class="footer__li">
+                    <a class="footer__a" href="#">
+                        <img class="footer__icon icon" src="https://i.pinimg.com/originals/e8/c9/82/e8c9828387de2a83e5469a95bc6d8574.png" alt="Navega a Youtube">
+                    </a>
+                </li>
+            </ul>
             <div class="footer__rights">
                 <p class="footer__p-trademark">2023 © COOLArtículos</p>
             </div>
