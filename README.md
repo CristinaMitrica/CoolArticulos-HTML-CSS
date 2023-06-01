@@ -1,9 +1,9 @@
 # CoolArtículos
 Proyecto **Frontend** en **HTML**, **CSS** para la página web ficticia de CoolArtículos.
 
-- **Herramientas**: Visual Studio Code, Figma, Chrome Dessarollador F12, Fork, W3School HTML Validator, Chat GTP. 
+- **Herramientas**: Visual Studio Code, Figma, Chrome Dessarollador F12, Fork, W3School HTML Validator, Can I Use, Live SASS Compiler, Chat GTP.
 
-- **Buenas prácticas**: BEM, Responsive Design, Mobile First, Pixel Perfect, HTML semántico.
+- **Buenas prácticas**: BEM, Responsive Design, Mobile First, Pixel Perfect, HTML semántico, Introducción a la Accesibilidad Web, Design System.
 
 ## Diseño
 Implementación basada en un diseño **Responsive** de **Figma**. Los estilos de los componentes se han obtenido a través de la herramienta de inspección de Figma y mediante el pluggin Locofy.ai, el cual permite exportar los Design Tokens.
