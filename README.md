@@ -23,6 +23,9 @@ El código emplea las buenas prácticas de CSS:
 - **BEM (clases basadas en componentes)**
 - **Baja Especificidad**
 
+Durante el desarrollo del código en SCSS, se ha validado que el código CSS resultante es el esperado. Para ello, se han hecho revisiones del CSS compilado y se ha usado la herramienta CSS Specificity Graph Generator para validar la especificidad.
+![image](https://github.com/CristinaMitrica/CoolArticulos-HTML-CSS/assets/124876049/62be4d14-6361-4d56-8f95-af1fe5dd3191)
+
 ## Cursos
 - OpenBootcamp. Curso de HTML y CSS.
 - Udemy. Curso CSS La Guía Completa - Flexbox, CSS Grid, SASS +20 proyectos.
