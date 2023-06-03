@@ -25,7 +25,7 @@ El código emplea las buenas prácticas de CSS:
 
 Se ha validado que el código CSS resultante es el esperado. Para ello, se ha revisado a través de la herramienta CSS Specificity Graph Generator para validar la especificidad.
 
-![image](https://github.com/CristinaMitrica/CoolArticulos-HTML-CSS/assets/124876049/60c374b5-64fa-4607-8d3c-99e5c784b054)
+![image](https://github.com/CristinaMitrica/CoolArticulos-HTML-CSS/assets/124876049/3670d8fc-5e15-49a0-afcc-eb50cd657c08)
 
 ## Cursos
 - OpenBootcamp. Curso de HTML y CSS.
