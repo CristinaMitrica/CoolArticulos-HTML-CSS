@@ -8,7 +8,7 @@ Proyecto **Frontend** en **HTML**, **CSS** para la página web ficticia de CoolA
 ## Diseño
 Implementación basada en un diseño **Responsive** de **Figma**. Los estilos de los componentes se han obtenido a través de la herramienta de inspección de Figma y mediante el pluggin Locofy.ai, el cual permite exportar los Design Tokens.
 
-![coolArticulos_body](https://github.com/CristinaMitrica/CoolArticulos-HTML-CSS/assets/124876049/96a0a907-8168-4420-acc8-3489a9c4ea9a)
+![figma](https://github.com/CristinaMitrica/CoolArticulos-HTML-CSS/assets/124876049/8fd281a4-7262-4d36-b9ac-f8d81916746e)
 
 ## HTML
 **HTML** **semántico** usando las **buenas prácticas** de la **W3School** y la herramienta W3School Web Validator. Las clases se escriben bajo la la nomenclatura **BEM**, para facilizar la componetización y conseguir una baja especificidad.
@@ -25,7 +25,7 @@ El código emplea las buenas prácticas de CSS:
 
 Se ha validado que el código CSS resultante es el esperado. Para ello, se ha revisado a través de la herramienta CSS Specificity Graph Generator para validar la especificidad.
 
-![image](https://github.com/CristinaMitrica/CoolArticulos-HTML-CSS/assets/124876049/3670d8fc-5e15-49a0-afcc-eb50cd657c08)
+![specificity](https://github.com/CristinaMitrica/CoolArticulos-HTML-CSS/assets/124876049/ba008945-8b2b-4133-a3e8-1b5b064bd220)
 
 ## Cursos
 - OpenBootcamp. Curso de HTML y CSS.
