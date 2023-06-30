@@ -39,7 +39,6 @@
   
     /* Sizings */
     --content-width: 50rem;
-    --header-height: 10.9375rem;
     
     /* Elevations */
     --elevation-1: 0rem 0.75rem 1.25rem -1.5rem rgba(0,0,0,0.45);
@@ -49,13 +48,6 @@
     /* break-medium:      48rem; */
     /* break-large:       62rem; */
     /* break-extra-large: 87.5rem; */
-}
-
-@media (min-width: 62rem) {
-    :root {
-        /* Sizings */
-        --header-height: 6.375rem;
-    }
 }
 
 @media (min-width: 87.5rem) {
@@ -145,14 +137,15 @@ body {
     display: grid;
     justify-items: center;
     align-content: center;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
     z-index: var(--zindex-header);
-    height: var(--header-height);
     background-color: var(--color-light-blue);
     box-shadow: var(--elevation-1);
+    padding-top: var(--spacing-16);
+    padding-bottom: var(--spacing-16);
 }
 
 @media (min-width: 62rem) {
@@ -249,7 +242,6 @@ body {
 /* Main */
 main {    
     padding: var(--spacing-24);
-    margin-top: var(--header-height);
 }
 
 @media (min-width: 62rem) {
