@@ -27,11 +27,11 @@ Se ha validado que el código CSS resultante es el esperado. Para ello, se ha re
 
 ![specificity](https://github.com/CristinaMitrica/CoolArticulos-HTML-CSS/assets/124876049/ba008945-8b2b-4133-a3e8-1b5b064bd220)
 
-## Cursos
+## Formación
 - OpenBootcamp. Curso de HTML y CSS.
 - Udemy. Curso CSS La Guía Completa - Flexbox, CSS Grid, SASS +20 proyectos.
 
-## Referencias
+## Recursos
 - https://www.w3schools.com/
 - https://developer.mozilla.org/es/
 - https://m3.material.io/
