@@ -292,10 +292,11 @@ main {
     gap: var(--spacing-32);
 }
 
-.article__figure {
+.article__cover {
     display: grid;
     grid-template-rows: 22.75rem auto;
     gap: var(--spacing-12);
+    margin-bottom: var(--spacing-12);
 }
 
 .article__p:not(:last-child) {
